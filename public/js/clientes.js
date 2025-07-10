@@ -1,5 +1,3 @@
-/* Parte 1: Willian Adrian Herrera Juela */
-
 // Creamos una clase para gestionar los clientes desde el localStorage.
 class ClienteService {
     static obtenerClientes() {
@@ -107,8 +105,6 @@ function editarCliente(id) {
     // Eliminamos el parámetro onclick de agregar cliente y lo especificamos para que se pueda actualizar los datos del cliente.
     btnAgregar.onclick = () => actualizarCliente(id);
 }
-
-/* Parte 2: Steven German Caluña Rojas */
 
 // Creamos la función para actualizar los datos de los clientes que ya hayan sido ingresados.
 function actualizarCliente(id) {

@@ -1,5 +1,3 @@
-/* Parte 1: Julio Cesar Paguay Bonilla */
-
 // Creamos una clase para gestionar facturas, productos y clientes desde el localStorage.
 class FacturaService {
     static obtenerFacturas() {
@@ -80,10 +78,9 @@ function mostrarItemsFactura() {
     });
 
     // Mostramos el total final de la factura.
-    totalElement.textContent = `Total: $${total.toFixed(2)}`;
+    //totalElement.textContent = `Total: $${total.toFixed(2)}`;
+    totalTexto.textContent = `Total: $${total.toFixed(2)}`;
 }
-
-/* Parte 2: Job Francesco Goyes Arcalle */
 
 // Creamos la función para guardar la información de la factura en base a los clientes y productos.
 function guardarFactura () {
